@@ -1,0 +1,81 @@
+body{
+    background-color: #00e2ff;
+    font-family:sans-serif,serif;
+    font-size:130%;
+    padding:10px;
+}
+a{
+    color:#666;
+}
+a:hover{
+    color:blue;
+}
+.wrapper{
+    background-color:#fff;
+    width:1000px;
+    margin:0 auto;
+    border-radius:20px;
+    padding:20px;
+
+}
+header{
+    padding:20px;
+    margin:10px;
+}
+header .glnaslov{
+    color:#666;
+    font-size:230%;
+    font-family:'Pacifico','sans-serif';
+}
+header .glnaslov span{
+    font-size:50%;
+    font-family:'georgia','sans-serif';
+    margin:20px;
+}
+.hero{
+    height:600px;
+    background:#0da783 url(../slike/kompjuter3.png) center no-repeat;
+}
+content{
+    overflow:hidden;
+    display:block;
+}
+main{
+    float:left;
+    width:70%;
+}
+main .blog{
+    padding:5px;
+    margin:0px;
+}
+main .blog h2{
+    padding-bottom: 0px;
+    margin-bottom: 5px;
+}
+main .blog p{
+    margin-top:10px;
+    color:#766969
+}
+aside{
+    float:right;
+}
+aside .stranice{
+    background-color:#ffc015;
+    margin:10px;
+}
+aside .stranice h3{
+    text-align: center;
+    background-color:red;
+    border:10px;
+}
+footer .napravio{
+    text-align: center;
+    clear:both;
+    display:block;
+    font-size:70%;
+    padding:10px;
+}
+footer .forma{
+    padding:20px;
+    text-align:center;
+}
